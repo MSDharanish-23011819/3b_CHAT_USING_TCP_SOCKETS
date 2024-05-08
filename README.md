@@ -1,17 +1,17 @@
-## 3b.CREATION FOR CHAT USING TCP SOCKETS
-## NAME : DHARANISH MS
-## REGISTER NO : 212223240027
+# 3b.CREATION FOR CHAT USING TCP SOCKETS
+# NAME : DHARANISH MS
+# REGISTER NO : 212223240027
 
-# AIM
+## AIM
 To write a python program for creating Chat using TCP Sockets Links.
-# ALGORITHM:
+## ALGORITHM:
 1. Import the necessary modules in python
 2. Create a socket connection to using the socket module.
 3. Send message to the client and receive the message from the client using the Socket module in
  server
 4. Send and receive the message using the send function in socket.
-#  PROGRAM
-## CLIENT 
+##  PROGRAM
+### CLIENT 
 ```
 import socket
 s=socket.socket()
@@ -21,7 +21,7 @@ while True:
  s.send(msg.encode())
  print("Server > ",s.recv(1024).decode())
 ```
-## SERVER
+### SERVER
 ```
 import socket
 s=socket.socket()
@@ -34,17 +34,17 @@ while True:
  msg=input("Server > ")
  c.send(msg.encode())
 ```
-# OUTPUT
-## CLIENT
+## OUTPUT
+### CLIENT
 
 ![3B CLIENT](https://github.com/MSDharanish-23011819/3b_CHAT_USING_TCP_SOCKETS/assets/147139454/fefde6e3-e8f9-46da-8248-fef59e745ce1)
 
 
 
-## SERVER
+### SERVER
 
 ![3B SERVER](https://github.com/MSDharanish-23011819/3b_CHAT_USING_TCP_SOCKETS/assets/147139454/9208afc0-3289-40fd-9559-2ad81a4d374a)
 
-# RESULT
+## RESULT
 Thus, the python program for creating Chat using TCP Sockets Links was successfully 
 created and executed.
